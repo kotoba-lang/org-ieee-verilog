@@ -1,7 +1,8 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
         org.clojure/clojurescript {:mvn/version "1.11.132"}
-        io.github.kotoba-lang/expr {:local/root "../expr"}}
+        io.github.kotoba-lang/expr {:git/url "https://github.com/kotoba-lang/expr.git"
+                                     :git/sha "3bf48bff59aa1fb1ea48a0b84103d63fd2b507ff"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
