@@ -5,7 +5,7 @@
    idents, and module instantiation. Expressions ride the shared kotoba.expr core, so this also guards
    that the algebra reused by kotoba.wgsl/kotoba.scad renders correctly under Verilog conventions."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [verilog.core :as v]))
 
 (deftest expressions
