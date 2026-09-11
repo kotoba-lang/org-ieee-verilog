@@ -7,5 +7,5 @@ The implementation lives in `verilog.core`; `kotoba.verilog` is provided as a co
 ## Test
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
