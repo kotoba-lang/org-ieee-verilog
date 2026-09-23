@@ -4,7 +4,7 @@
    ternary, nonblocking always blocks with edge sensitivity + if/else, concat/bit-select, kebab→snake
    idents, and module instantiation. Expressions ride the shared kotoba.expr core, so this also guards
    that the algebra reused by kotoba.wgsl/kotoba.scad renders correctly under Verilog conventions."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.lang.text :as str]
             [verilog.core :as v]))
 
